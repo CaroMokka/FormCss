@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 1000px;
+    height: 1000px;
+    background-image: linear-gradient(50deg, #008ae0 0, #0087e6 7.14%, #0085ea 14.29%, #0081ed 21.43%, #007ded 28.57%, #0079ec 35.71%, #0074e9 42.86%, #486ee5 50%, #6968df 57.14%, #8161d7 64.29%, #955ace 71.43%, #a652c4 78.57%, #b44bb9 85.71%, #c043ad 92.86%, #c93ca1 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.header {
+    width: 600px;
+    background-color: black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 20px;
+    
+    
+}
+.header h2 {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 21px;
+    box-shadow:inset 2px 2px 2px 0px rgba(0,0,0,.1),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+}
+
+.body {
+    width: 600px;
+    background-color: whitesmoke;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    display: flex;
+
+   
+}
+.name {
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    
+    
+}
+.name span {
+    margin-right: 60px;
+    display: flex;
+    align-items: center;
+}
+.firstname {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+.lastname {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.company {
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.email {
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.phone {
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.phone-area {
+    width: 100px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.phone-number {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.subject {
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cuestion {
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.radio {
+    display: flex;
+    
+
+}
+.radio label{
+    display: flex;
+    align-self: center;
+    margin-right: 30px;
+}
+
+
+.name input {
+    width: 200px;
+    
+    
+}
+.company input {
+    width: 430px;
+}
+.email input {
+    width: 430px;
+}
+.subject select {
+    width: 430px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #d9d9d9;
+
+
+}
+input[type=radio] {
+    display: block;
+    margin: 0 10px; 
+}
+
+span {
+    margin-right: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    background-color: #f44336;
+    border: none;
+    color: whitesmoke;
+    padding: 15px 50px;
+    border-radius: 3px;
+    font-size: 10px;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    text-align: center;
+    margin: 30px;
+    
+    
+}
+input {
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #d9d9d9;
+
+}
+label {
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #9f9f9f;
+    
+}
